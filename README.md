@@ -12,18 +12,17 @@
 ![Screenshot 1](Screenshots/battle.png)
 
 ## Скачать игру
-
 ### Выберите версию для скачивания:
 
-1. #### [Tanks_dotnet8_x64.zip](ссылка-на-файл)
+1. #### [Tanks_dotnet8_x64.zip](https://github.com/GenichiOniFy/TANKS_FROM_90/releases/download/v1.0/Tanks_dotnet8_x64.zip)
    **Описание:** Игра с встроенным .NET 8 для 64-битных систем.  
    **Рекомендуется для:** Большинство современных компьютеров.  
 
-2. #### [Tanks_dotnet8_x86.zip](ссылка-на-файл)
+2. #### [Tanks_dotnet8_x86.zip](https://github.com/GenichiOniFy/TANKS_FROM_90/releases/download/v1.0/Tanks_dotnet8_x86.zip)
    **Описание:** Игра с встроенным .NET 8 для 32-битных систем.  
    **Рекомендуется для:** Системы с 32-битной ОС или старые компьютеры.  
 
-3. #### [Tanks_from_90.zip](ссылка-на-файл)
+3. #### [Tanks_from_90.zip](https://github.com/GenichiOniFy/TANKS_FROM_90/releases/download/v1.0/Tanks_from_90.zip)
    **Описание:** Игра без встроенного .NET 8. Требуется предварительная установка .NET 8 на вашем компьютере.  
    **Рекомендуется для:** Пользователи, которые уже установили .NET 8.
 
