@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "5oXH0jDT4/Qx0WMo0WHajhnXJ6NF3KI4kCuOMuwRgV8nNzK1L6+uheR8DvWjsir5A4zEMDt1DAYHHQf68Zm+GA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_game\\Tanks_game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\artem\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.4\\microsoft.net.illink.tasks.8.0.4.nupkg.sha512",
+    "C:\\Users\\artem\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\8.0.4\\microsoft.netcore.app.runtime.win-x86.8.0.4.nupkg.sha512",
+    "C:\\Users\\artem\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\8.0.4\\microsoft.windowsdesktop.app.runtime.win-x86.8.0.4.nupkg.sha512",
+    "C:\\Users\\artem\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\8.0.4\\microsoft.aspnetcore.app.runtime.win-x86.8.0.4.nupkg.sha512",
+    "C:\\Users\\artem\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\8.0.4\\microsoft.netcore.app.crossgen2.win-x64.8.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -20,3 +20,4 @@ C:\Users\artem\Desktop\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\Tanks_lib
 C:\Users\artem\Desktop\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\refint\Tanks_lib.dll
 C:\Users\artem\Desktop\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\Tanks_lib.pdb
 C:\Users\artem\Desktop\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\ref\Tanks_lib.dll
+C:\Users\artem\Desktop\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\Tanks_lib.sourcelink.json

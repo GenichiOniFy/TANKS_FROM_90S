@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tanks_lib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a98f6380f5040db77721cd32496b7c03e77ab82a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6dddd3753758a562ff0b2cd853bd939bfa03a2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tanks_lib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tanks_lib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
