@@ -485,3 +485,4 @@ C:\Users\artem\Desktop\Tanks_game\Tanks_game\obj\Release\net8.0-windows\win-x64\
 C:\Users\artem\Desktop\Tanks_game\Tanks_game\obj\Release\net8.0-windows\win-x64\Tanks_game.pdb
 C:\Users\artem\Desktop\Tanks_game\Tanks_game\obj\Release\net8.0-windows\win-x64\Tanks_game.genruntimeconfig.cache
 C:\Users\artem\Desktop\Tanks_game\Tanks_game\obj\Release\net8.0-windows\win-x64\ref\Tanks_game.dll
+C:\Users\artem\Desktop\Tanks_game\Tanks_game\obj\Release\net8.0-windows\win-x64\Tanks_game.sourcelink.json

@@ -54,3 +54,4 @@ C:\Users\artem\Desktop\Tanks_game\Tanks_game\obj\Release\net8.0-windows\refint\T
 C:\Users\artem\Desktop\Tanks_game\Tanks_game\obj\Release\net8.0-windows\Tanks_game.pdb
 C:\Users\artem\Desktop\Tanks_game\Tanks_game\obj\Release\net8.0-windows\Tanks_game.genruntimeconfig.cache
 C:\Users\artem\Desktop\Tanks_game\Tanks_game\obj\Release\net8.0-windows\ref\Tanks_game.dll
+C:\Users\artem\Desktop\Tanks_game\Tanks_game\obj\Release\net8.0-windows\Tanks_game.sourcelink.json
