@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Resources\Sounds\**" />
+    <EmbeddedResource Remove="Resources\Sounds\**" />
+    <None Remove="Resources\Sounds\**" />
+    <Page Remove="Resources\Sounds\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\A_Goblin_Appears.otf" />
+    <None Remove="Resources\back.png" />
+    <None Remove="Resources\border.jpg" />
+    <None Remove="Resources\Bullet.png" />
+    <None Remove="Resources\Button\Restart_button.png" />
+    <None Remove="Resources\Button\Return_button.png" />
+    <None Remove="Resources\Button\Start_button.png" />
+    <None Remove="Resources\Button\Stop_button.png" />
+    <None Remove="Resources\Enemy.png" />
+    <None Remove="Resources\fire.png" />
+    <None Remove="Resources\logo.ico" />
+    <None Remove="Resources\tank.png" />
+    <None Remove="Resources\wall.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\A_Goblin_Appears.otf" />
+    <Resource Include="Resources\border.jpg" />
+    <Resource Include="Resources\Button\Restart_button.png" />
+    <Resource Include="Resources\Button\Return_button.png" />
+    <Resource Include="Resources\Button\Start_button.png" />
+    <Resource Include="Resources\Button\Stop_button.png" />
+    <Resource Include="Resources\fire.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tanks_lib\Tanks_lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\back.png" />
+    <Resource Include="Resources\Bullet.png" />
+    <Resource Include="Resources\Enemy.png" />
+    <Resource Include="Resources\logo.ico" />
+    <Resource Include="Resources\tank.png" />
+    <Resource Include="Resources\wall.png" />
+  </ItemGroup>
+
+</Project>

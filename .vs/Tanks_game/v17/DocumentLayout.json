@@ -1,0 +1,233 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\artem\\Desktop\\Tanks_game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{908E548D-CE37-4F2D-BBC7-29EF5E997AC6}|Tanks_game\\Tanks_game.csproj|c:\\users\\artem\\desktop\\tanks_game\\tanks_game\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908E548D-CE37-4F2D-BBC7-29EF5E997AC6}|Tanks_game\\Tanks_game.csproj|solutionrelative:tanks_game\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBF2F893-7D4B-4A91-98CB-5F21AEE20CFF}|Tanks_lib\\Tanks_lib.csproj|C:\\Users\\artem\\Desktop\\Tanks_game\\tanks_lib\\tanks_lib.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{CBF2F893-7D4B-4A91-98CB-5F21AEE20CFF}|Tanks_lib\\Tanks_lib.csproj|solutionrelative:tanks_lib\\tanks_lib.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E548D-CE37-4F2D-BBC7-29EF5E997AC6}|Tanks_game\\Tanks_game.csproj|C:\\Users\\artem\\Desktop\\Tanks_game\\tanks_game\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{908E548D-CE37-4F2D-BBC7-29EF5E997AC6}|Tanks_game\\Tanks_game.csproj|solutionrelative:tanks_game\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E548D-CE37-4F2D-BBC7-29EF5E997AC6}|Tanks_game\\Tanks_game.csproj|C:\\Users\\artem\\Desktop\\Tanks_game\\tanks_game\\mainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{908E548D-CE37-4F2D-BBC7-29EF5E997AC6}|Tanks_game\\Tanks_game.csproj|solutionrelative:tanks_game\\mainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBF2F893-7D4B-4A91-98CB-5F21AEE20CFF}|Tanks_lib\\Tanks_lib.csproj|C:\\Users\\artem\\Desktop\\Tanks_game\\tanks_lib\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBF2F893-7D4B-4A91-98CB-5F21AEE20CFF}|Tanks_lib\\Tanks_lib.csproj|solutionrelative:tanks_lib\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E548D-CE37-4F2D-BBC7-29EF5E997AC6}|Tanks_game\\Tanks_game.csproj|C:\\Users\\artem\\Desktop\\Tanks_game\\tanks_game\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908E548D-CE37-4F2D-BBC7-29EF5E997AC6}|Tanks_game\\Tanks_game.csproj|solutionrelative:tanks_game\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_game\\bin\\Debug\\net8.0-windows\\settings.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tanks_game\\bin\\Debug\\net8.0-windows\\settings.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBF2F893-7D4B-4A91-98CB-5F21AEE20CFF}|Tanks_lib\\Tanks_lib.csproj|C:\\Users\\artem\\Desktop\\Tanks_game\\tanks_lib\\mazegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBF2F893-7D4B-4A91-98CB-5F21AEE20CFF}|Tanks_lib\\Tanks_lib.csproj|solutionrelative:tanks_lib\\mazegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBF2F893-7D4B-4A91-98CB-5F21AEE20CFF}|Tanks_lib\\Tanks_lib.csproj|C:\\Users\\artem\\Desktop\\Tanks_game\\tanks_lib\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBF2F893-7D4B-4A91-98CB-5F21AEE20CFF}|Tanks_lib\\Tanks_lib.csproj|solutionrelative:tanks_lib\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBF2F893-7D4B-4A91-98CB-5F21AEE20CFF}|Tanks_lib\\Tanks_lib.csproj|C:\\Users\\artem\\Desktop\\Tanks_game\\tanks_lib\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBF2F893-7D4B-4A91-98CB-5F21AEE20CFF}|Tanks_lib\\Tanks_lib.csproj|solutionrelative:tanks_lib\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBF2F893-7D4B-4A91-98CB-5F21AEE20CFF}|Tanks_lib\\Tanks_lib.csproj|C:\\Users\\artem\\Desktop\\Tanks_game\\tanks_lib\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBF2F893-7D4B-4A91-98CB-5F21AEE20CFF}|Tanks_lib\\Tanks_lib.csproj|solutionrelative:tanks_lib\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBF2F893-7D4B-4A91-98CB-5F21AEE20CFF}|Tanks_lib\\Tanks_lib.csproj|C:\\Users\\artem\\Desktop\\Tanks_game\\tanks_lib\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBF2F893-7D4B-4A91-98CB-5F21AEE20CFF}|Tanks_lib\\Tanks_lib.csproj|solutionrelative:tanks_lib\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E548D-CE37-4F2D-BBC7-29EF5E997AC6}|Tanks_game\\Tanks_game.csproj|C:\\Users\\artem\\Desktop\\Tanks_game\\tanks_game\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{908E548D-CE37-4F2D-BBC7-29EF5E997AC6}|Tanks_game\\Tanks_game.csproj|solutionrelative:tanks_game\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tanks_lib",
+              "DocumentMoniker": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Tanks_lib.csproj",
+              "RelativeDocumentMoniker": "Tanks_lib\\Tanks_lib.csproj",
+              "ToolTip": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Tanks_lib.csproj",
+              "RelativeToolTip": "Tanks_lib\\Tanks_lib.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-28T13:29:15.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_game\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Tanks_game\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_game\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Tanks_game\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAwI8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:45:09.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Player.cs",
+              "RelativeDocumentMoniker": "Tanks_lib\\Player.cs",
+              "ToolTip": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Player.cs",
+              "RelativeToolTip": "Tanks_lib\\Player.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwNwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:37:33.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Enemy.cs",
+              "RelativeDocumentMoniker": "Tanks_lib\\Enemy.cs",
+              "ToolTip": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Enemy.cs",
+              "RelativeToolTip": "Tanks_lib\\Enemy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:58:01.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Bullet.cs",
+              "RelativeDocumentMoniker": "Tanks_lib\\Bullet.cs",
+              "ToolTip": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Bullet.cs",
+              "RelativeToolTip": "Tanks_lib\\Bullet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:15:06.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Wall.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Wall.cs",
+              "RelativeDocumentMoniker": "Tanks_lib\\Wall.cs",
+              "ToolTip": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Wall.cs",
+              "RelativeToolTip": "Tanks_lib\\Wall.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:50:34.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MazeGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\MazeGenerator.cs",
+              "RelativeDocumentMoniker": "Tanks_lib\\MazeGenerator.cs",
+              "ToolTip": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\MazeGenerator.cs",
+              "RelativeToolTip": "Tanks_lib\\MazeGenerator.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:56:59.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_game\\MainMenu.xaml.cs",
+              "RelativeDocumentMoniker": "Tanks_game\\MainMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_game\\MainMenu.xaml.cs",
+              "RelativeToolTip": "Tanks_game\\MainMenu.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAuwD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:17:50.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Settings.cs",
+              "RelativeDocumentMoniker": "Tanks_lib\\Settings.cs",
+              "ToolTip": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Settings.cs",
+              "RelativeToolTip": "Tanks_lib\\Settings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T21:42:17.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_game\\MainMenu.xaml",
+              "RelativeDocumentMoniker": "Tanks_game\\MainMenu.xaml",
+              "ToolTip": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_game\\MainMenu.xaml",
+              "RelativeToolTip": "Tanks_game\\MainMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-25T22:33:22.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_game\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Tanks_game\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_game\\MainWindow.xaml",
+              "RelativeToolTip": "Tanks_game\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-25T22:33:07.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "settings.xml",
+              "DocumentMoniker": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_game\\bin\\Debug\\net8.0-windows\\settings.xml",
+              "RelativeDocumentMoniker": "Tanks_game\\bin\\Debug\\net8.0-windows\\settings.xml",
+              "ToolTip": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_game\\bin\\Debug\\net8.0-windows\\settings.xml",
+              "RelativeToolTip": "Tanks_game\\bin\\Debug\\net8.0-windows\\settings.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-05-25T21:15:15.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_game\\App.xaml",
+              "RelativeDocumentMoniker": "Tanks_game\\App.xaml",
+              "ToolTip": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_game\\App.xaml",
+              "RelativeToolTip": "Tanks_game\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-24T20:15:36.885Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

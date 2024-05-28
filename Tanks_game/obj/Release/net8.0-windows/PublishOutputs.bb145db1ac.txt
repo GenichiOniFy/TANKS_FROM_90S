@@ -1,0 +1,7 @@
+C:\Users\artem\Desktop\Tanks_game\Tanks_game\bin\Release\net8.0-windows\publish\Tanks_game.exe
+C:\Users\artem\Desktop\Tanks_game\Tanks_game\bin\Release\net8.0-windows\publish\Tanks_game.dll
+C:\Users\artem\Desktop\Tanks_game\Tanks_game\bin\Release\net8.0-windows\publish\Tanks_game.deps.json
+C:\Users\artem\Desktop\Tanks_game\Tanks_game\bin\Release\net8.0-windows\publish\Tanks_game.runtimeconfig.json
+C:\Users\artem\Desktop\Tanks_game\Tanks_game\bin\Release\net8.0-windows\publish\Tanks_game.pdb
+C:\Users\artem\Desktop\Tanks_game\Tanks_game\bin\Release\net8.0-windows\publish\Tanks_lib.dll
+C:\Users\artem\Desktop\Tanks_game\Tanks_game\bin\Release\net8.0-windows\publish\Tanks_lib.pdb

@@ -1,0 +1,11 @@
+﻿<Application x:Class="Tanks_game.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Tanks_game"
+             StartupUri="MainMenu.xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <Application.Resources>
+        <sys:String x:Key="Settings">settings.xml</sys:String>
+        <sys:String x:Key="ScoreBoard">scoreboard.xml</sys:String>
+    </Application.Resources>
+</Application>

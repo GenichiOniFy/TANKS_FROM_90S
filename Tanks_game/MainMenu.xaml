@@ -1,0 +1,132 @@
+﻿<Window x:Class="Tanks_game.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tanks_game"
+        mc:Ignorable="d"
+        Title="MainMenu"
+        WindowState="Maximized"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen" Icon="/Resources/logo.ico">
+    <Window.Resources>
+        <FontFamily x:Key="GoblinFont">/Resources/A_Goblin_Appears.otf#A Goblin Appears!</FontFamily>
+        <LinearGradientBrush x:Key="ButtonGradient" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#FF6B6A6A" Offset="0"/>
+            <GradientStop Color="White" Offset="1"/>
+        </LinearGradientBrush>
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="{StaticResource GoblinFont}" />
+            <Setter Property="FontSize" Value="50" />
+            <Setter Property="Foreground" Value="{StaticResource ButtonGradient}" />
+            <Setter Property="Background" Value="#333333" />
+            <Setter Property="Width" Value="600" />
+            <Setter Property="Height" Value="100" />
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Border Background="{TemplateBinding Background}" 
+                            BorderThickness="5" 
+                            BorderBrush="#666666" 
+                            CornerRadius="10">
+                                <TextBlock Text="{TemplateBinding Content}" 
+                                   HorizontalAlignment="Center" 
+                                   VerticalAlignment="Center"
+                                   Effect="{DynamicResource ShadowEffect}" />
+                            </Border>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#555555" />
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#999999" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <DropShadowEffect x:Key="ShadowEffect" ShadowDepth="10" Color="Black" Opacity="0.5"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid Name="MenuGrid" Visibility="Visible" Opacity="1.0">
+            <Image Source="/Resources/back.png" Stretch="UniformToFill" />
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="TANKS FROM 90'S" FontSize="100" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}"  Foreground="{StaticResource ButtonGradient}" Margin="0,50,0,100"/>
+                <Button Content="NEW GAME" Click="StartButton_Click" />
+                <Button Content="SETTINGS" Click="SettingsButton_Click" />
+                <Button Content="EXIT" Click="ExitButton_Click" />
+            </StackPanel>
+        </Grid>
+
+        <Grid Name="EnterNamePanel" Visibility="Collapsed" Opacity="1.0">
+            <Image Source="/Resources/back.png" Stretch="UniformToFill" />
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="WHO ARE YOU?" FontSize="100" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}"  Foreground="{StaticResource ButtonGradient}" Margin="0,50,0,100"/>
+                <TextBox Name="TextBox" Width="700" Height="90" Background="Transparent" 
+                        BorderBrush="{StaticResource ButtonGradient}" BorderThickness="2"
+                        FontFamily="{StaticResource GoblinFont}" Foreground="{StaticResource ButtonGradient}" 
+                        FontSize="40" HorizontalAlignment="Center" Margin="0,0,0,20" 
+                        VerticalContentAlignment="Center" Padding="10" 
+                        CaretBrush="{StaticResource ButtonGradient}" 
+                        SelectionBrush="{StaticResource ButtonGradient}" 
+                        SelectionOpacity="0.5" 
+                        PreviewTextInput="TextBox_PreviewTextInput" />
+
+                <Button Content="OK" Click="EnterName_Click" />
+            </StackPanel>
+        </Grid>
+
+
+
+
+        <Grid x:Name="SettingsPanel" Visibility="Collapsed" Opacity="1">
+            <Image Source="/Resources/back.png" Stretch="UniformToFill" />
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="50">
+                <TextBlock Text="SETTINGS" FontSize="120" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}"  Foreground="{StaticResource ButtonGradient}" Margin="0,0,0,50"/>
+
+                <!-- Слайдеры для скоростей танков и снарядов -->
+                <StackPanel>
+                    <TextBlock Text="PLAYER TANK SPEED" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}"  Foreground="{StaticResource ButtonGradient}" FontSize="30" Margin="0,0,0,10"/>
+                    <Slider x:Name="PlayerTankSpeedSlider" Minimum="1" Maximum="6" Value="10" TickFrequency="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True"/>
+                </StackPanel>
+
+                <StackPanel Margin="0,20,0,0">
+                    <TextBlock Text="PLAYER BULLET SPEED" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}"  Foreground="{StaticResource ButtonGradient}" FontSize="30" Margin="0,0,0,10"/>
+                    <Slider x:Name="PlayerBulletSpeedSlider" Minimum="2" Maximum="12" Value="10" TickFrequency="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True"/>
+                </StackPanel>
+
+                <StackPanel Margin="0,20,0,0">
+                    <TextBlock Text="ENEMY TANK SPEED" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}"  Foreground="{StaticResource ButtonGradient}" FontSize="30" Margin="0,0,0,10"/>
+                    <Slider x:Name="EnemyTankSpeedSlider" Minimum="1" Maximum="6" Value="10" TickFrequency="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True"/>
+                </StackPanel>
+
+                <StackPanel Margin="0,20,0,0">
+                    <TextBlock Text="ENEMY BULLET SPEED" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}"  Foreground="{StaticResource ButtonGradient}" FontSize="30" Margin="0,0,0,10"/>
+                    <Slider x:Name="EnemyBulletSpeedSlider" Minimum="2" Maximum="12" Value="10" TickFrequency="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True"/>
+                </StackPanel>
+
+                <StackPanel Margin="0,20,0,0">
+                    <TextBlock Text="ENEMY SPAWN SPEED" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}"  Foreground="{StaticResource ButtonGradient}" FontSize="30" Margin="0,0,0,10"/>
+                    <Slider x:Name="EnemySpawnTimeSlider" Minimum="2" Maximum="12" Value="10" TickFrequency="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True">
+                        <Slider.LayoutTransform>
+                            <ScaleTransform ScaleX="-1" />
+                        </Slider.LayoutTransform>
+                    </Slider>
+                </StackPanel>
+
+
+                <!-- Кнопка применения изменений -->
+                <Button Content="Apply" Click="ApplyButton_Click" Margin="0,30,0,0"/>
+            </StackPanel>
+
+        </Grid>
+        
+
+    </Grid>
+</Window>

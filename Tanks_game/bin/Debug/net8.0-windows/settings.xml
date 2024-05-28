@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TankSpeed>5</TankSpeed>
+  <EnemyTankSpeed>2</EnemyTankSpeed>
+  <PlayerBulletSpeed>8</PlayerBulletSpeed>
+  <EnemyBulletSpeed>6</EnemyBulletSpeed>
+  <EnemySpawnTime>5</EnemySpawnTime>
+</Settings>

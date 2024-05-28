@@ -1,0 +1,22 @@
+C:\Users\artem\YandexDisk\ВУЗ\Информатика\4 семестр\5lab\Tanks_game\Tanks_lib\bin\Release\net8.0-windows\Tanks_lib.deps.json
+C:\Users\artem\YandexDisk\ВУЗ\Информатика\4 семестр\5lab\Tanks_game\Tanks_lib\bin\Release\net8.0-windows\Tanks_lib.dll
+C:\Users\artem\YandexDisk\ВУЗ\Информатика\4 семестр\5lab\Tanks_game\Tanks_lib\bin\Release\net8.0-windows\Tanks_lib.pdb
+C:\Users\artem\YandexDisk\ВУЗ\Информатика\4 семестр\5lab\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\Tanks_lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artem\YandexDisk\ВУЗ\Информатика\4 семестр\5lab\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\Tanks_lib.AssemblyInfoInputs.cache
+C:\Users\artem\YandexDisk\ВУЗ\Информатика\4 семестр\5lab\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\Tanks_lib.AssemblyInfo.cs
+C:\Users\artem\YandexDisk\ВУЗ\Информатика\4 семестр\5lab\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\Tanks_lib.csproj.CoreCompileInputs.cache
+C:\Users\artem\YandexDisk\ВУЗ\Информатика\4 семестр\5lab\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\Tanks_lib.dll
+C:\Users\artem\YandexDisk\ВУЗ\Информатика\4 семестр\5lab\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\refint\Tanks_lib.dll
+C:\Users\artem\YandexDisk\ВУЗ\Информатика\4 семестр\5lab\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\Tanks_lib.pdb
+C:\Users\artem\YandexDisk\ВУЗ\Информатика\4 семестр\5lab\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\ref\Tanks_lib.dll
+C:\Users\artem\Desktop\Tanks_game\Tanks_lib\bin\Release\net8.0-windows\Tanks_lib.deps.json
+C:\Users\artem\Desktop\Tanks_game\Tanks_lib\bin\Release\net8.0-windows\Tanks_lib.dll
+C:\Users\artem\Desktop\Tanks_game\Tanks_lib\bin\Release\net8.0-windows\Tanks_lib.pdb
+C:\Users\artem\Desktop\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\Tanks_lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artem\Desktop\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\Tanks_lib.AssemblyInfoInputs.cache
+C:\Users\artem\Desktop\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\Tanks_lib.AssemblyInfo.cs
+C:\Users\artem\Desktop\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\Tanks_lib.csproj.CoreCompileInputs.cache
+C:\Users\artem\Desktop\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\Tanks_lib.dll
+C:\Users\artem\Desktop\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\refint\Tanks_lib.dll
+C:\Users\artem\Desktop\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\Tanks_lib.pdb
+C:\Users\artem\Desktop\Tanks_game\Tanks_lib\obj\Release\net8.0-windows\ref\Tanks_lib.dll
