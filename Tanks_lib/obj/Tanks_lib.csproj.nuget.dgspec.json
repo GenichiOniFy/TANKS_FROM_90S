@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Tanks_lib.csproj": {}
+    "C:\\Users\\artem\\Desktop\\TANKS_FROM_90S\\Tanks_lib\\Tanks_lib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Tanks_lib.csproj": {
+    "C:\\Users\\artem\\Desktop\\TANKS_FROM_90S\\Tanks_lib\\Tanks_lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Tanks_lib.csproj",
+        "projectUniqueName": "C:\\Users\\artem\\Desktop\\TANKS_FROM_90S\\Tanks_lib\\Tanks_lib.csproj",
         "projectName": "Tanks_lib",
-        "projectPath": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Tanks_lib.csproj",
+        "projectPath": "C:\\Users\\artem\\Desktop\\TANKS_FROM_90S\\Tanks_lib\\Tanks_lib.csproj",
         "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\obj\\",
+        "outputPath": "C:\\Users\\artem\\Desktop\\TANKS_FROM_90S\\Tanks_lib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,14 +48,6 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "dependencies": {
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.4, )",
-              "autoReferenced": true
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -67,16 +59,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-              "version": "[8.0.4, 8.0.4]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
-              "version": "[8.0.4, 8.0.4]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -86,11 +68,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
         }
       }
     }

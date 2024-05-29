@@ -18,6 +18,7 @@ using System.Runtime.Serialization;
 using Tanks_lib;
 using Microsoft.Win32;
 using System.Text.RegularExpressions;
+using System.Diagnostics;
 
 namespace Tanks_game
 {
@@ -36,26 +37,38 @@ namespace Tanks_game
         {
             InitializeComponent();
             #region Восстановление рекордов из файла
-            ScoreBoard = new Dictionary<string, int>();
-            var dataContractSerializer = new DataContractSerializer(typeof(Dictionary<string, int>));
-            using (Stream fStream = new FileStream((string)Application.Current.Resources["ScoreBoard"] as string, FileMode.Open, FileAccess.Read, FileShare.None))
+            try
             {
-                ScoreBoard = (Dictionary<string, int>)dataContractSerializer.ReadObject(fStream)!;
+                var dataContractSerializer = new DataContractSerializer(typeof(Dictionary<string, int>));
+                using (Stream fStream = new FileStream((string)Application.Current.Resources["ScoreBoard"] as string, FileMode.Open, FileAccess.Read, FileShare.None))
+                {
+                    ScoreBoard = (Dictionary<string, int>)dataContractSerializer.ReadObject(fStream)!;
+                }
+            }
+            catch
+            {
+                ScoreBoard = new Dictionary<string, int>();
             }
             #endregion
 
             #region Восстановление настроек из файла
-            set = new Settings();
-            XmlSerializer xmlSerializer = new XmlSerializer(typeof(Settings));
-            using (Stream fStream = new FileStream((string)Application.Current.Resources["Settings"] as string, FileMode.Open, FileAccess.Read, FileShare.None))
+            try
             {
-                set = (Settings)xmlSerializer.Deserialize(fStream)!;
+                XmlSerializer xmlSerializer = new XmlSerializer(typeof(Settings));
+                using (Stream fStream = new FileStream((string)Application.Current.Resources["Settings"] as string, FileMode.Open, FileAccess.Read, FileShare.None))
+                {
+                    set = (Settings)xmlSerializer.Deserialize(fStream)!;
+                }
+            }
+            catch
+            {
+                set = new Settings();
             }
             PlayerTankSpeedSlider.Value = set.TankSpeed;
             EnemyTankSpeedSlider.Value = set.EnemyTankSpeed;
             PlayerBulletSpeedSlider.Value = set.PlayerBulletSpeed;
             EnemyBulletSpeedSlider.Value = set.EnemyBulletSpeed;
-            EnemySpawnTimeSlider.Value = set.EnemySpawnTime;
+            EnemySpawnSpeedSlider.Value = set.EnemySpawnSpeed;
             #endregion
         }
         #endregion
@@ -94,6 +107,13 @@ namespace Tanks_game
         }
         #endregion
 
+        #region Переход на github
+        void Open_github(object sender, RoutedEventArgs e)
+        {
+            Process.Start(new ProcessStartInfo("https://github.com/GenichiOniFy/TANKS_FROM_90S") { UseShellExecute = true });
+        }
+        #endregion
+
         #region Кнопка настроек
         private void SettingsButton_Click(object sender, RoutedEventArgs e)
         {
@@ -108,7 +128,7 @@ namespace Tanks_game
             set.EnemyTankSpeed = (int)EnemyTankSpeedSlider.Value;
             set.PlayerBulletSpeed = (int)PlayerBulletSpeedSlider.Value;
             set.EnemyBulletSpeed = (int)EnemyBulletSpeedSlider.Value;
-            set.EnemySpawnTime = (int)EnemySpawnTimeSlider.Value;
+            set.EnemySpawnSpeed = (int)EnemySpawnSpeedSlider.Value;
 
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(Settings));
             using (Stream fStream = new FileStream((string)Application.Current.Resources["Settings"] as string, FileMode.Create, FileAccess.Write, FileShare.None))

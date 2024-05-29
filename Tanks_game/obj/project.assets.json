@@ -36,11 +36,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_game\\Tanks_game.csproj",
+      "projectUniqueName": "C:\\Users\\artem\\Desktop\\TANKS_FROM_90S\\Tanks_game\\Tanks_game.csproj",
       "projectName": "Tanks_game",
-      "projectPath": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_game\\Tanks_game.csproj",
+      "projectPath": "C:\\Users\\artem\\Desktop\\TANKS_FROM_90S\\Tanks_game\\Tanks_game.csproj",
       "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_game\\obj\\",
+      "outputPath": "C:\\Users\\artem\\Desktop\\TANKS_FROM_90S\\Tanks_game\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -61,8 +61,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Tanks_lib.csproj": {
-              "projectPath": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Tanks_lib.csproj"
+            "C:\\Users\\artem\\Desktop\\TANKS_FROM_90S\\Tanks_lib\\Tanks_lib.csproj": {
+              "projectPath": "C:\\Users\\artem\\Desktop\\TANKS_FROM_90S\\Tanks_lib\\Tanks_lib.csproj"
             }
           }
         }

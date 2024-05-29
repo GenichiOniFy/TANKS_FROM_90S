@@ -56,12 +56,17 @@
     <Grid>
         <Grid Name="MenuGrid" Visibility="Visible" Opacity="1.0">
             <Image Source="/Resources/back.png" Stretch="UniformToFill" />
+            <TextBlock Text="v1.1" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="20" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}" Foreground="{StaticResource ButtonGradient}"/>
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
                 <TextBlock Text="TANKS FROM 90'S" FontSize="100" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}"  Foreground="{StaticResource ButtonGradient}" Margin="0,50,0,100"/>
                 <Button Content="NEW GAME" Click="StartButton_Click" />
                 <Button Content="SETTINGS" Click="SettingsButton_Click" />
                 <Button Content="EXIT" Click="ExitButton_Click" />
             </StackPanel>
+            <TextBlock Margin="0,0,0,20" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}"  Foreground="{StaticResource ButtonGradient}" FontSize="20">
+                THE LATEST VERSION CAN BE DOWNLOADED FROM
+                <Hyperlink Click="Open_github">GITHUB</Hyperlink>
+            </TextBlock>
         </Grid>
 
         <Grid Name="EnterNamePanel" Visibility="Collapsed" Opacity="1.0">
@@ -93,27 +98,27 @@
                 <!-- Слайдеры для скоростей танков и снарядов -->
                 <StackPanel>
                     <TextBlock Text="PLAYER TANK SPEED" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}"  Foreground="{StaticResource ButtonGradient}" FontSize="30" Margin="0,0,0,10"/>
-                    <Slider x:Name="PlayerTankSpeedSlider" Minimum="1" Maximum="6" Value="10" TickFrequency="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True"/>
+                    <Slider x:Name="PlayerTankSpeedSlider" Minimum="3" Maximum="6" TickFrequency="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True"/>
                 </StackPanel>
 
                 <StackPanel Margin="0,20,0,0">
                     <TextBlock Text="PLAYER BULLET SPEED" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}"  Foreground="{StaticResource ButtonGradient}" FontSize="30" Margin="0,0,0,10"/>
-                    <Slider x:Name="PlayerBulletSpeedSlider" Minimum="2" Maximum="12" Value="10" TickFrequency="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True"/>
+                    <Slider x:Name="PlayerBulletSpeedSlider" Minimum="7" Maximum="10" Value="10" TickFrequency="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True"/>
                 </StackPanel>
 
                 <StackPanel Margin="0,20,0,0">
                     <TextBlock Text="ENEMY TANK SPEED" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}"  Foreground="{StaticResource ButtonGradient}" FontSize="30" Margin="0,0,0,10"/>
-                    <Slider x:Name="EnemyTankSpeedSlider" Minimum="1" Maximum="6" Value="10" TickFrequency="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True"/>
+                    <Slider x:Name="EnemyTankSpeedSlider" Minimum="1" Maximum="4" TickFrequency="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True"/>
                 </StackPanel>
 
                 <StackPanel Margin="0,20,0,0">
                     <TextBlock Text="ENEMY BULLET SPEED" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}"  Foreground="{StaticResource ButtonGradient}" FontSize="30" Margin="0,0,0,10"/>
-                    <Slider x:Name="EnemyBulletSpeedSlider" Minimum="2" Maximum="12" Value="10" TickFrequency="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True"/>
+                    <Slider x:Name="EnemyBulletSpeedSlider" Minimum="5" Maximum="8" TickFrequency="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True"/>
                 </StackPanel>
 
                 <StackPanel Margin="0,20,0,0">
                     <TextBlock Text="ENEMY SPAWN SPEED" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}"  Foreground="{StaticResource ButtonGradient}" FontSize="30" Margin="0,0,0,10"/>
-                    <Slider x:Name="EnemySpawnTimeSlider" Minimum="2" Maximum="12" Value="10" TickFrequency="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True">
+                    <Slider x:Name="EnemySpawnSpeedSlider" Minimum="1" Maximum="12" TickFrequency="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True">
                         <Slider.LayoutTransform>
                             <ScaleTransform ScaleX="-1" />
                         </Slider.LayoutTransform>

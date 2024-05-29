@@ -1,8 +1,0 @@
-C:\Users\artem\Desktop\Tanks_game\Tanks_game\bin\Release\net8.0-windows\publish\win-x64\Tanks_game.pdb
-C:\Users\artem\Desktop\Tanks_game\Tanks_game\bin\Release\net8.0-windows\publish\win-x64\D3DCompiler_47_cor3.dll
-C:\Users\artem\Desktop\Tanks_game\Tanks_game\bin\Release\net8.0-windows\publish\win-x64\PenImc_cor3.dll
-C:\Users\artem\Desktop\Tanks_game\Tanks_game\bin\Release\net8.0-windows\publish\win-x64\PresentationNative_cor3.dll
-C:\Users\artem\Desktop\Tanks_game\Tanks_game\bin\Release\net8.0-windows\publish\win-x64\vcruntime140_cor3.dll
-C:\Users\artem\Desktop\Tanks_game\Tanks_game\bin\Release\net8.0-windows\publish\win-x64\wpfgfx_cor3.dll
-C:\Users\artem\Desktop\Tanks_game\Tanks_game\bin\Release\net8.0-windows\publish\win-x64\Tanks_lib.pdb
-C:\Users\artem\Desktop\Tanks_game\Tanks_game\bin\Release\net8.0-windows\publish\win-x64\Tanks_game.exe

@@ -110,7 +110,7 @@ namespace Tanks_game
 
             #region Реализыция таймера для создания противников
             enemySpawnTimer = new DispatcherTimer();
-            enemySpawnTimer.Interval = TimeSpan.FromSeconds(MainMenu.set!.EnemySpawnTime);
+            enemySpawnTimer.Interval = TimeSpan.FromSeconds(MainMenu.set!.EnemySpawnSpeed);
             enemySpawnTimer.Tick += CreateEnemy!;
             #endregion
 
@@ -136,8 +136,14 @@ namespace Tanks_game
             CreateRandomWalls();
             CreateBorder();
             UpdateName(MainMenu.Name!);
-            UpdateHighScore(MainMenu.ScoreBoard!.Values.Max());
-
+            if (MainMenu.ScoreBoard!.Count > 0)
+            {
+                UpdateHighScore(MainMenu.ScoreBoard!.Values.Max());
+            }
+            else
+            {
+                UpdateHighScore(0);
+            }
         }
         #endregion
 
@@ -360,7 +366,7 @@ namespace Tanks_game
                         #endregion
 
                         #region Обновление очков
-                        tank.Score += (50/MainMenu.set!.TankSpeed+ 100/MainMenu.set!.PlayerBulletSpeed + 100/MainMenu.set!.EnemySpawnTime) + (10*MainMenu.set!.EnemyTankSpeed+5*MainMenu.set!.EnemyBulletSpeed);
+                        tank.Score += (50/MainMenu.set!.TankSpeed+ 100/MainMenu.set!.PlayerBulletSpeed + 100/MainMenu.set!.EnemySpawnSpeed) + (10*MainMenu.set!.EnemyTankSpeed+5*MainMenu.set!.EnemyBulletSpeed);
                         UpdateScore(tank.Score);
                         if (tank.Score > int.Parse(HighScore.Text.Split()[2]))
                         {

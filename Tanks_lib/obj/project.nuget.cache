@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FHt+lGKZvonSpf5NXQhbSyEoCoZZUqrUjpwMI8R274P6maPZFxW89G/9Dl56xxMKn7ZjyHpocm/xnyCzVijH+A==",
+  "dgSpecHash": "pWXqx28ZG7BB558qG9jgXMYB+WYQ1pToA8i9MZzuO8cG2SD+d1i1Ka7lt8O/mVhvD4ocStj2v0Oud6mKsW6h6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\artem\\Desktop\\Tanks_game\\Tanks_lib\\Tanks_lib.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\artem\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.4\\microsoft.net.illink.tasks.8.0.4.nupkg.sha512",
-    "C:\\Users\\artem\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\8.0.4\\microsoft.netcore.app.runtime.linux-x64.8.0.4.nupkg.sha512",
-    "C:\\Users\\artem\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\8.0.4\\microsoft.aspnetcore.app.runtime.linux-x64.8.0.4.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\artem\\Desktop\\TANKS_FROM_90S\\Tanks_lib\\Tanks_lib.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
