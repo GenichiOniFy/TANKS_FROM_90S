@@ -47,7 +47,7 @@ namespace Tanks_lib
         #endregion
 
         #region Проверка столкновения со стеной
-        public bool CheckCollisionWithWall(List<Wall> walls)
+        public List<Wall> CheckCollisionWithWall(List<Wall> walls)
         {
             foreach (var wall in walls)
             {
@@ -56,10 +56,22 @@ namespace Tanks_lib
 
                 if (bulletRect.IntersectsWith(wallRect))
                 {
-                    return true; // Столкновение с стеной
+                    List<Wall> neig = new List<Wall>();
+                    if ((SpeedX>=0.001 || SpeedX <= -0.001) && (SpeedY<=0.001 || SpeedY >= -0.001))
+                    {
+                        neig = wall.GetVerticalNeighbor(30, walls);
+                    }
+                    else
+                    {
+                        neig = wall.GetHorizontalNeighbor(30, walls);
+                    }
+                    
+                    
+                    neig.Add(wall);
+                    return neig;
                 }
             }
-            return false; // Нет столкновения
+            return null!; // Нет столкновения
         }
         #endregion
 

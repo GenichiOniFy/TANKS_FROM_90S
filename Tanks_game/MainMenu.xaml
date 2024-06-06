@@ -56,7 +56,7 @@
     <Grid>
         <Grid Name="MenuGrid" Visibility="Visible" Opacity="1.0">
             <Image Source="/Resources/back.png" Stretch="UniformToFill" />
-            <TextBlock Text="v1.1" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="20" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}" Foreground="{StaticResource ButtonGradient}"/>
+            <TextBlock Text="v2.0" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="20" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}" Foreground="{StaticResource ButtonGradient}"/>
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
                 <TextBlock Text="TANKS FROM 90'S" FontSize="100" FontFamily="{StaticResource GoblinFont}" Effect="{DynamicResource ShadowEffect}"  Foreground="{StaticResource ButtonGradient}" Margin="0,50,0,100"/>
                 <Button Content="NEW GAME" Click="StartButton_Click" />

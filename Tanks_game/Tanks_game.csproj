@@ -20,11 +20,14 @@
     <None Remove="Resources\A_Goblin_Appears.otf" />
     <None Remove="Resources\back.png" />
     <None Remove="Resources\border.jpg" />
+    <None Remove="Resources\broken_wall.png" />
     <None Remove="Resources\Bullet.png" />
     <None Remove="Resources\Button\Restart_button.png" />
     <None Remove="Resources\Button\Return_button.png" />
     <None Remove="Resources\Button\Start_button.png" />
     <None Remove="Resources\Button\Stop_button.png" />
+    <None Remove="Resources\Button\Volume_off.png" />
+    <None Remove="Resources\Button\Volume_on.png" />
     <None Remove="Resources\Enemy.png" />
     <None Remove="Resources\fire.png" />
     <None Remove="Resources\logo.ico" />
@@ -39,10 +42,13 @@
   <ItemGroup>
     <Resource Include="Resources\A_Goblin_Appears.otf" />
     <Resource Include="Resources\border.jpg" />
+    <Resource Include="Resources\broken_wall.png" />
     <Resource Include="Resources\Button\Restart_button.png" />
     <Resource Include="Resources\Button\Return_button.png" />
     <Resource Include="Resources\Button\Start_button.png" />
     <Resource Include="Resources\Button\Stop_button.png" />
+    <Resource Include="Resources\Button\Volume_off.png" />
+    <Resource Include="Resources\Button\Volume_on.png" />
     <Resource Include="Resources\fire.png" />
   </ItemGroup>
 

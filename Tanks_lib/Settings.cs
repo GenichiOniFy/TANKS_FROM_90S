@@ -17,6 +17,8 @@ namespace Tanks_lib
         public int EnemyBulletSpeed { get; set; }
         public int EnemySpawnSpeed { get; set; }
 
+        public bool Volume { get; set; }
+
         public Settings()
         {
             TankSpeed = 6;
@@ -24,6 +26,7 @@ namespace Tanks_lib
             PlayerBulletSpeed = 8;
             EnemyBulletSpeed = 6;
             EnemySpawnSpeed = 4;
+            Volume = true;
         }
     }
 

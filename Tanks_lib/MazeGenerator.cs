@@ -60,7 +60,7 @@ namespace Tanks_lib
                 switch (direction)
                 {
                     case 0: nx -= 1; break; // Влево
-                    case 1: ny -= 10; break; // Вверх
+                    case 1: ny -= 1; break; // Вверх
                     case 2: nx += 1; break; // Вправо
                     case 3: ny += 1; break; // Вниз
                 }

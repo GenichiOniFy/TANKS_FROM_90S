@@ -73,7 +73,16 @@ namespace Tanks_game
             GameSound = new MediaPlayer();
             GameSound.Open(new Uri("Sounds/GameSound.wav", System.UriKind.Relative));
             GameSound.Volume = 0.3; //Громкость музыки на фоне.
-            GameSound.Play();
+            if (MainMenu.set!.Volume)
+            {
+                GameSound.Play();
+            }
+            else
+            {
+                var Volume_image = (Image)VolumeButton.Content;
+                Volume_image.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/Button/Volume_off.png"));
+            }
+            
             #endregion
 
             #region Скорборд
@@ -150,22 +159,27 @@ namespace Tanks_game
         #region Создание лабирина из стен
         private void CreateRandomWalls()
         {
-            MazeGenerator maze = new MazeGenerator((int)GameCanvas.ActualWidth / 20, (int)GameCanvas.ActualHeight / 20); // Создаем лабиринт
+            MazeGenerator maze = new MazeGenerator((int)GameCanvas.ActualWidth / 90, (int)GameCanvas.ActualHeight / 90); // Создаем лабиринт
             maze.GenerateMaze(); // Генерируем лабиринт
             DrawMaze(maze); // Рисуем лабиринт на канве
         }
         private void DrawMaze(MazeGenerator maze)
         {
-            double cellSize = 90; // Размер клетки
+            double cellSize = 30; // Размер клетки
             for (int x = 0; x < maze.Width; x++)
             {
                 for (int y = 0; y < maze.Height; y++)
                 {
                     if (maze.IsWall(x, y))
                     {
-                        Wall wall = new Wall(x * cellSize, y * cellSize, cellSize, cellSize);
-                        walls.Add(wall);
-                        GameCanvas.Children.Add(wall.Texture);
+                        int[][] perm = new int[][] { new int[] { 0, 0 }, new int[] { 30, 0}, new int[] { 60, 0 }, new int[] { 0, 30 }, new int[] { 30, 30 }, new int[] { 60, 30 }, new int[] { 0, 60 }, new int[] { 30, 60 }, new int[] { 60, 60 } };
+                        for (int i=0; i < 9; i++)
+                        {
+                            Wall wall = new Wall(x * 90 + perm[i][0], y * 90 + perm[i][1], cellSize, cellSize);
+                            walls.Add(wall);
+                            GameCanvas.Children.Add(wall.Texture);
+                        }
+                        
                     }
                 }
             }
@@ -254,6 +268,30 @@ namespace Tanks_game
         }
         #endregion
 
+        #region Кнопка Управления звуком
+        private void VolumeButton_Click(object sender, RoutedEventArgs e)
+        {
+            var Volume_image = (Image)VolumeButton.Content;
+            if (MainMenu.set!.Volume)
+            {
+                GameSound.Pause();
+                MainMenu.set!.Volume = false;
+                Volume_image.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/Button/Volume_off.png"));
+            }
+            else
+            {
+                GameSound.Play();
+                MainMenu.set!.Volume = true;
+                Volume_image.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/Button/Volume_on.png"));
+            }
+            XmlSerializer xmlSerializer = new XmlSerializer(typeof(Settings));
+            using (Stream fStream = new FileStream((string)Application.Current.Resources["Settings"] as string, FileMode.Create, FileAccess.Write, FileShare.None))
+            {
+                xmlSerializer.Serialize(fStream, MainMenu.set);
+            }
+        }
+        #endregion
+
         #region Кнопка вернуться в меню
         private void ReturnButton_Click(object sender, RoutedEventArgs e)
         {
@@ -320,7 +358,6 @@ namespace Tanks_game
 
             foreach (var bullet in bullets)
             {
-
                 #region Проверка столкновения с рамкой
                 double borderWidth = 90; 
                 if (bullet.X < borderWidth || bullet.X+10 > GameCanvas.ActualWidth - borderWidth ||
@@ -332,9 +369,29 @@ namespace Tanks_game
                 #endregion
 
                 #region Проверка столкновения пули со стеной
-                if (bullet.CheckCollisionWithWall(walls))
+                List<Wall> _walls = bullet.CheckCollisionWithWall(walls);
+                if (_walls!=null)
                 {
                     bulletsToRemove.Add(bullet);
+                    foreach(Wall w in _walls)
+                    {
+                        if (w.life)
+                        {
+                            double x = Canvas.GetLeft(w.Texture);
+                            double y = Canvas.GetTop(w.Texture);
+                            GameCanvas.Children.Remove(w.Texture);
+                            w.Break();
+                            Canvas.SetLeft(w.Texture, x);
+                            Canvas.SetTop(w.Texture, y);
+                            GameCanvas.Children.Add(w.Texture);
+                        }
+                        else
+                        {
+                            GameCanvas.Children.Remove(w.Texture);
+                            walls.Remove(w);
+                        }
+                        
+                    }
                     continue; // Пропускаем перемещение пули, если она столкнулась со стеной
                 }
                 #endregion
@@ -349,9 +406,12 @@ namespace Tanks_game
                     if (CheckCollision(bullet, enemy))
                     {
                         #region Загрузка звука взрыва
-                        ExplosionSound = new MediaPlayer();
-                        ExplosionSound.Open(new Uri("Sounds/ExplosionSound.wav", System.UriKind.Relative));
-                        ExplosionSound.Play();
+                        if (MainMenu.set!.Volume)
+                        {
+                            ExplosionSound = new MediaPlayer();
+                            ExplosionSound.Open(new Uri("Sounds/ExplosionSound.wav", System.UriKind.Relative));
+                            ExplosionSound.Play();
+                        }
 
                         #endregion
 
@@ -474,10 +534,30 @@ namespace Tanks_game
                 }
                 #endregion
 
-                #region Проверка на столкновение со стеной
-                if (bullet.CheckCollisionWithWall(walls)) // Проверяем столкновение с каждой стеной
+                #region Проверка столкновения пули со стеной
+                List<Wall> _walls = bullet.CheckCollisionWithWall(walls);
+                if (_walls != null)
                 {
                     bulletsToRemove.Add(bullet);
+                    foreach (Wall w in _walls)
+                    {
+                        if (w.life)
+                        {
+                            double x = Canvas.GetLeft(w.Texture);
+                            double y = Canvas.GetTop(w.Texture);
+                            GameCanvas.Children.Remove(w.Texture);
+                            w.Break();
+                            Canvas.SetLeft(w.Texture, x);
+                            Canvas.SetTop(w.Texture, y);
+                            GameCanvas.Children.Add(w.Texture);
+                        }
+                        else
+                        {
+                            GameCanvas.Children.Remove(w.Texture);
+                            walls.Remove(w);
+                        }
+
+                    }
                     continue; // Пропускаем перемещение пули, если она столкнулась со стеной
                 }
                 #endregion
@@ -548,12 +628,15 @@ namespace Tanks_game
                 dataContractSerializer.WriteObject(fStream, sortedDictionary);
             }
             #endregion
-                
+
             #region Загрузка звука на скорборде
-            ScoreBoardSound = new MediaPlayer();
-            ScoreBoardSound.Open(new Uri("Sounds/ScoreBoardSound.wav", System.UriKind.Relative));
-            ScoreBoardSound.Volume = 0.3;
-            ScoreBoardSound.Play();
+            if (MainMenu.set!.Volume)
+            {
+                ScoreBoardSound = new MediaPlayer();
+                ScoreBoardSound.Open(new Uri("Sounds/ScoreBoardSound.wav", System.UriKind.Relative));
+                ScoreBoardSound.Volume = 0.3;
+                ScoreBoardSound.Play();
+            }
             #endregion
 
             #region Выводим текущие очки на скоборд
