@@ -22,7 +22,7 @@
    **Описание:** Игра с встроенным .NET 8 для 32-битных систем.  
    **Рекомендуется для:** Системы с 32-битной ОС или старые компьютеры.  
 
-3. #### [Tanks_from_90.zip](https://github.com/GenichiOniFy/TANKS_FROM_90S/releases/download/v2.0/Tanks_from_90.zip)
+3. #### [Tanks_from_90.zip](https://github.com/GenichiOniFy/TANKS_FROM_90S/releases/download/v2.0/Tanks_from_90s.zip)
    **Описание:** Игра без встроенного .NET 8. Требуется предварительная установка .NET 8 (или выше) на вашем компьютере.  
    **Рекомендуется для:** Пользователи, которые уже установили .NET 8.
 
